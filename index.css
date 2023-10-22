@@ -1,0 +1,84 @@
+body{
+    background-image:url(./Path.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+
+    width: 100vw;
+    height: 1110px;
+
+    
+}
+
+.section-one{
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    
+}
+
+ul{
+    margin: 0px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+    padding-left: 165px; 
+    padding-top: 12px;
+    padding-bottom: 261px;
+
+}
+
+.Buy{
+    border: 0px;
+
+    padding-right: 165px;
+    padding-top: 12px;
+    padding-bottom: 205px;
+
+   
+}
+
+.land{
+
+    padding-top: 12px;
+    padding-bottom: 261px;
+}
+
+.info{
+    color: #505F98;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#land{
+    color: #37447E;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px;
+}
+
+#Buy{
+    width: 160px;
+    height: 26px;
+    background: #111b47;
+    border-radius: 2px;
+    color: #FFf;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
